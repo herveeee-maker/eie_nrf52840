@@ -6,3 +6,12 @@ git push: Updates remote refs along with associated objects. Arguments: -u (set 
 git merge: Joins two or more development histories together. Arguments: <branchname>, --no-ff (no fast-forward)" >> git_cheatsheet.txt
 git rebase: Reapply commits on top of another base tip. Arguments: -i (interactive), <base>" >> git_cheatsheet.txt
 git fetch: Download objects and refs from another repository. Arguments: --all, <remote> <branch>" >> git_cheatsheet.txt
+
+git add: Stages changes for the next commit. Arguments: <file>, ." >> git_cheatsheet.txt
+git status: Shows the working tree status. Arguments: -s (short format)" >> git_cheatsheet.txt
+git log: Shows commit logs. Arguments: --oneline, --graph, -p (patch)" >> git_cheatsheet.txt
+
+Note for git push: -u <remote> <branch> sets the upstream tracking branch (needed once)." >> git_cheatsheet.txt
+
+git diff: Shows changes between commits, commit and working tree, etc. Arguments: --cached, <commit1> <commit2>" >> git_cheatsheet.txt
+
